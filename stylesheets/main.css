@@ -1,0 +1,82 @@
+.lower-group, .navbar, .lower-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login {
+  color: white;
+  background-color: green;
+  width: 80;
+  text-align: center;
+  padding-top: 23;
+}
+
+.navbar {
+  background-color: black;
+  height: 60;
+}
+
+.header-title {
+  color: white;
+  font-size: 25;
+  margin-left: 20;
+  padding-top: 20;
+}
+
+.lower-navbar {
+  height: auto;
+  background-color: #000080;
+  padding: 10;
+  padding-left: 20;
+  padding-right: 20;
+}
+
+.lower-nav-element {
+  color: white;
+  font-size: 20;
+}
+
+.main-text {
+  background-color: black;
+  color: white;
+  padding: 10;
+}
+
+.main-window {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main-image {
+ width: 100%;
+ height: auto;
+}
+
+.main-title {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 25;
+}
+
+.lower-group {
+  width: 100%;
+  height: auto;
+
+}
+
+.lower-left, .lower-mid, .lower-right {
+  width: 33%;
+  display: inline-block;
+}
+
+.lower-image {
+  width: 100%;
+  height: auto;
+}
