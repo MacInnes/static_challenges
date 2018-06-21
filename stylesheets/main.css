@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 .login {
   color: white;
   background-color: green;
@@ -66,17 +70,16 @@ a {
 }
 
 .lower-group {
-  width: 100%;
-  height: auto;
-
-}
-
-.lower-left, .lower-mid, .lower-right {
-  width: 33%;
-  display: inline-block;
+  padding: 20;
 }
 
 .lower-image {
-  width: 100%;
-  height: auto;
+  height: 300;
+  width: auto;
+}
+
+.footer {
+  background-color: black;
+  padding: 20;
+  color: white;
 }
